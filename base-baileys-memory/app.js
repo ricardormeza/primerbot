@@ -4,7 +4,7 @@ const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MockAdapter = require('@bot-whatsapp/database/mock')
 
-const flowSecundario = addKeyword(['2', 'siguiente']).addAnswer(['📄 Aquí tenemos el flujo secundario'])
+const flowSecundario = addKeyword(['2', 'siguiente']).addAnswer(['📄 Muy bien aqui irian los servicios'])
 
 const flowDocs = addKeyword(['doc', 'documentacion', 'documentación']).addAnswer(
     [
@@ -49,19 +49,21 @@ const flowDiscord = addKeyword(['discord']).addAnswer(
 )
 
 const flowPrincipal = addKeyword(['hola', 'ola', 'alo', 'prueba'])
-    .addAnswer('🙌 Hola bienvenido a este *Chatbot*')
+    .addAnswer('🙌 Hola soy RickyRam 🤖 un bot virtual')
     .addAnswer(
         [
             'Te invito a que sigas mis redes sociales',
-            '👉 *doc* para ver la documentación',
-            '👉 *gracias*  para ver la lista de videos',
+            '👉 *Hola Ismael',
+            '👉 Escribe *marketing*  para ver la lista de nuestros servicios',
             '👉 *discord* unirte al discord',
         ],
         null,
         null,
         [flowDocs, flowGracias, flowTuto, flowDiscord]
     )
-
+const flowAlkimia = addKeyword(["marketing"]).addAnswer(
+    ['🤪 wow estas apunto de llevar tu negocio al siguiente nivel, puedes visitar nuestro sitio web👇', 'https://alkimia.agency', 'Escribe el número 2', '\n*2* Para ver nuestros servicios.'],
+)
 const main = async () => {
     const adapterDB = new MockAdapter()
     const adapterFlow = createFlow([flowPrincipal])
