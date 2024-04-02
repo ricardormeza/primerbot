@@ -47,23 +47,27 @@ const flowDiscord = addKeyword(['discord']).addAnswer(
     null,
     [flowSecundario]
 )
+const flowAlkimia = addKeyword(["Marketing"]).addAnswer(
+    ['🤪 wow estas apunto de llevar tu negocio al siguiente nivel, puedes visitar nuestro sitio web👇', 'https://alkimia.agency', 'Escribe el número 2', '\n*2* Para ver nuestros servicios.'],
+    null,
+    null,
+    [flowSecundario]
+)
 
 const flowPrincipal = addKeyword(['hola', 'ola', 'alo', 'prueba'])
-    .addAnswer('🙌 Hola soy RickyRam 🤖 un bot virtual')
+    .addAnswer('🙌 Hola soy RickyTron 🤖 un bot virtual')
     .addAnswer(
         [
             'Te invito a que sigas mis redes sociales',
             '👉 *Hola Ismael',
-            '👉 Escribe *marketing*  para ver la lista de nuestros servicios',
+            '👉 Escribe *Marketing*  para ver la lista de nuestros servicios',
             '👉 *discord* unirte al discord',
         ],
         null,
         null,
-        [flowDocs, flowGracias, flowTuto, flowDiscord]
+        [flowDocs, flowGracias, flowTuto, flowAlkimia]
     )
-const flowAlkimia = addKeyword(["marketing"]).addAnswer(
-    ['🤪 wow estas apunto de llevar tu negocio al siguiente nivel, puedes visitar nuestro sitio web👇', 'https://alkimia.agency', 'Escribe el número 2', '\n*2* Para ver nuestros servicios.'],
-)
+
 const main = async () => {
     const adapterDB = new MockAdapter()
     const adapterFlow = createFlow([flowPrincipal])

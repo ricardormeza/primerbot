@@ -1,0 +1,144 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219611741737@s.whatsapp.net',
+    fromMe: false,
+    id: '1F53AFF48F0F57D30B103A3769CF70CB',
+    participant: undefined
+  },
+  messageTimestamp: 1712037164,
+  pushName: 'Yoffi Agencia De Mercadotecnia Digital',
+  broadcast: false,
+  message: Message {
+    conversation: 'Ola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Ola',
+  from: '5219611741737'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_7f9ef902-7cab-4f34-9270-0d09e42fca41',
+  keyword: 'key_6b20c0ef-b7e8-4b6f-8144-9c7215933800',
+  answer: '🙌 Hola soy RickyTron 🤖 un bot virtual',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '3f2a8ef807fb54ea9d7d4ff8ea8378b5'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_9cafd645-4f78-4077-9a05-e00cf85de0b2',
+  keyword: 'ans_7f9ef902-7cab-4f34-9270-0d09e42fca41',
+  answer: 'Te invito a que sigas mis redes sociales\n' +
+    '👉 *Hola Ismael\n' +
+    '👉 Escribe *Marketing*  para ver la lista de nuestros servicios\n' +
+    '👉 *discord* unirte al discord',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '7f5e57d700a1d4904108417f4e9f1a9f'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219611741737@s.whatsapp.net',
+    fromMe: false,
+    id: '1121D2C1A8442993A44AF6CE961BE802',
+    participant: undefined
+  },
+  messageTimestamp: 1712037169,
+  pushName: 'Yoffi Agencia De Mercadotecnia Digital',
+  broadcast: false,
+  message: Message {
+    conversation: 'Marketing',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Marketing',
+  from: '5219611741737'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_a8f1a0c2-9098-44f8-ac3d-d12e3a8bc997',
+  keyword: 'key_64da10b5-c8ed-47a2-9b5f-6256ea17cb7c',
+  answer: '🤪 wow estas apunto de llevar tu negocio al siguiente nivel, puedes visitar nuestro sitio web👇\n' +
+    'https://alkimia.agency\n' +
+    'Escribe el número 2\n' +
+    '\n' +
+    '*2* Para ver nuestros servicios.',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [ [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '8652e1e52a7f38acacc6d23b4ac5b1b6'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5219611741737@s.whatsapp.net',
+    fromMe: false,
+    id: 'D66EE1DB7E5C559EAC859AE4715A261A',
+    participant: undefined
+  },
+  messageTimestamp: 1712037177,
+  pushName: 'Yoffi Agencia De Mercadotecnia Digital',
+  broadcast: false,
+  message: Message {
+    conversation: '2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '5219611741737'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_2086d70a-1652-4029-a046-c304d58ea827',
+  keyword: 'key_b779944c-a031-4626-a715-d6d982a00772',
+  answer: '📄 Muy bien aqui irian los servicios',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '4a03eb7a9d25012a435c3a649ddd1969'
+}
